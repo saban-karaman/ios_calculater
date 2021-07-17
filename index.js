@@ -9,15 +9,11 @@ var b8 = document.getElementById("b8").innerText;
 var b9 = document.getElementById("b9").innerText;
 var b0 = document.getElementById("zero").innerText;
 var bb = document.getElementById("bb").innerText;
-console.log(typeof (b1));
-result = document.getElementById("row2").innerText;
-content = document.getElementById("row1").innerText;
-console.log(typeof result);
-resultOperand = "";
+// console.log(typeof (b1));
+// result = document.getElementById("row2").innerText;
+// content = document.getElementById("row1").innerText;
+// console.log(typeof result);
 
-function append(numb) {
-    resultOperand = resultOperand + number 
-}
 
 function abc(numb){
    if (document.getElementById("row2").innerText === "0" ) {
