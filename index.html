@@ -5,43 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
 <body>
     <div class="container">
-        <div class="row1">content1</div>
-        <div class="row2">content2</div>
-        <div class="row3">content3</div>
-        <div id="row4">0</div>
+        <div id="row1">content1</div>
+        <div id="row2">0</div>
         <div class="row5">
-            <button id="clear">AC</button>
-            <button id="plus">+/-</button>
+            <button id="clear" onclick="clears()">AC</button>
+            <button id="plus" onclick="calculate(+)">+/-</button>
             <button id="backspace">%</button>
-            <button id="divide">÷</button>
+            <button id="divide" onclick="calculate('/')">÷</button>
         </div>
         <div class="row6">
-            <button id="b7">7</button>
-            <button id="b8">8</button>
-            <button id="b9">9</button>
-            <button id="times">x</button> 
+            <button id="b7" onclick="abc(b7)">7</button>
+            <button id="b8" onclick="abc(b8)">8</button>
+            <button id="b9" onclick="abc(b9)">9</button>
+            <button id="times" onclick="calculate('*')">x</button> 
         </div>
         <div class="row7">
-            <button id="b4">4</button>
-            <button id="b5">5</button>
-            <button id="b6">6</button>
-            <button id="mines">-</button>
+            <button id="b4" onclick="abc(b4)">4</button>
+            <button id="b5" onclick="abc(b5)">5</button>
+            <button id="b6" onclick="abc(b6)">6</button>
+            <button id="mines" onclick="calculate('-')">-</button>
         </div>
         <div class="row8">
             <!-- <input type="button" id="b1" onclick="abc()" value="1"> -->
-            <button id="b1" onclick="abc()">1</button>
-            <button id="b2">2</button>
-            <button id="b3">3</button>
-            <button id="concat">+</button>
+            <button id="b1" onclick="abc(b1)">1</button>
+            <button id="b2" onclick="abc(b2)">2</button>
+            <button id="b3" onclick="abc(b3)">3</button>
+            <button id="concat" onclick="calculate('+')">+</button>
         </div>
         <div class="row9">
-            <button id="zero">0</button>
-            <button id="b,">,</button>
-            <button id="equal">=</button>
+            <button id="zero" onclick="abc(b0)">0</button>
+            <button id="bb" onclick="abc(bb)">.</button>
+            <button id="equal" onclick="equal()">=</button>
             
         </div>
     </div>
